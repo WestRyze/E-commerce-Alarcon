@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header>
+          <h1 class="logo">ClotheSite</h1>
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="todos" class="boton-menu boton-categoria active">
+                <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos
+              </button>
+            </li>
+            <li>
+              <button id="abrigos" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Abrigos
+              </button>
+            </li>
+            <li>
+              <button id="camisetas" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Camisetas
+              </button>
+            </li>
+            <li>
+              <button id="pantalones" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Pantalones
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito" href="paginas/carrito.html">
+                <i class="bi bi-cart-fill"></i> Carrito
+                <span id="numerito" class="numerito">0</span>
+              </a>
+            </li>
+
+            <li>
+              <button class="switch active" id="switch">
+                <span class="cambio"><i class="bi bi-brightness-high-fill"></i></span>
+                <span class="cambio"><i class="bi bi-moon-fill"></i></span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="texto-footer">Pagina Hecha por Maximiliano Alarcón</p>
+        </footer>
+      </aside>
+      <main>
+        <h2 class="titulo-principal" id="titulo-principal">
+          Todos los productos
+        </h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+          <div class="producto">
+          <img class="producto-imagen" src="multimedia/01.jpeg" alt="">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo">Remera 01</h3>
+            <p class="producto-precio">$1000</p>
+            <button class="producto-agregar">Agregar</button>
+          </div>
+        </div>
+
+        <div class="producto">
+          <img class="producto-imagen" src="multimedia/02.jpeg" alt="">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo">Remera 02</h3>
+            <p class="producto-precio">$1000</p>
+            <button class="producto-agregar">Agregar</button>
+          </div>
+        </div>
+
+        <div class="producto">
+          <img class="producto-imagen" src="multimedia/03.jpeg" alt="">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo">Remera 03</h3>
+            <p class="producto-precio">$1000</p>
+            <button class="producto-agregar">Agregar</button>
+          </div>
+        </div>
+
+        <div class="producto">
+          <img class="producto-imagen" src="multimedia/04.jpg" alt="">
+          <div class="producto-detalles">
+            <h3 class="producto-titulo">Remera 04</h3>
+            <p class="producto-precio">$1000</p>
+            <button class="producto-agregar">Agregar</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

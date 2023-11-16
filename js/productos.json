@@ -1,0 +1,22 @@
+[
+  {
+    "id": "abrigo-01",
+    "titulo": "Abrigo 01",
+    "imagen": "./multimedia/01.jpeg",
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "abrigo-02",
+    "titulo": "Abrigo 02",
+    "imagen": "./multimedia/02.jpeg",
+    "categoria": {
+      "nombre": "Abrigos",
+      "id": "abrigos"
+    },
+    "precio": 1000
+  }
+]
